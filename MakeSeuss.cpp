@@ -1,13 +1,5 @@
 
-#include "makeSeuss.hpp"
-#include "hashMap.hpp"
-
-#include <iostream>
-#include <stdlib.h>
-#include <string>
-#include <fstream>
-
-using namespace std;
+#include "MakeSeuss.hpp"
 
 makeSeuss::makeSeuss(string f1,string f2,bool hash1, bool coll1) {
 	ht = new hashMap(hash1,coll1);

@@ -1,8 +1,9 @@
 #ifndef HASHMAP_HPP_
 #define HASHMAP_HPP_
-
-
-#include "hashNode.hpp"
+#include <iostream>
+#include <math.h>
+#include "HashNode.hpp"
+using namespace std;
 
 class hashMap {
 	friend class makeSeuss;
