@@ -1,6 +1,5 @@
 #ifndef HASHNODE_HPP_
 #define HASHNODE_HPP_
-
 #include <iostream>
 using namespace std;
 /* Note: the hashNode is only how we're representing the data in your hash map.  It is not

@@ -1,8 +1,4 @@
 #include "hashMap.hpp"
-#include "hashNode.hpp"
-#include <iostream>
-#include <math.h>
-using namespace std;
 
 hashMap::hashMap(bool hash1, bool coll1) {
 }
@@ -11,15 +7,15 @@ void hashMap::addKeyValue(string k, string v) {
 int hashMap::getIndex(string k) {
 }
 
-int hashMap::calcHash2(string k){
 }
 int hashMap::calcHash1(string k){
 }
 void hashMap::getClosestPrime() {
 }
-void hashMap::reHash() {
-}
-int hashMap::coll1(int h, int i, string k) {
+void HashMap::reHash() {
+	if (numKeys >= (0.7*mapSize)){
+		map->dblArray();
+	}
 }
 int hashMap::coll2(int h, int i, string k) {
 }
